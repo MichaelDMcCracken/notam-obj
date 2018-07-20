@@ -1,0 +1,29 @@
+{
+  "name": "notam-obj",
+  "version": "1.0.0",
+  "description": "Parse a NOTAM into a predictable Javascript object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/ --recursive",
+    "test:watch": "nodemon --watch ./index.js --watch test --exec 'npm run test || true'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanburnette/notam-obj.git"
+  },
+  "authors": [
+    "Michael McCracken <michaelmccracken172@gmail.com",
+    "Ryan Burnette <ryan.burnette@gmail.com>"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanburnette/notam-obj/issues"
+  },
+  "homepage": "https://github.com/ryanburnette/notam-obj",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "pry": "^0.8.1"
+  }
+}
